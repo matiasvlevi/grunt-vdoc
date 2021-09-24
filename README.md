@@ -31,12 +31,15 @@ grunt.initConfig({
           version: "0.0.0",
           github: "https://github.com/user/myProject"
         },
-        templates: "./docs/theme/",
+
         dest: "./docs/build/",
-        partials: "./docs/theme/partials/",
-        content: "./docs/content/data.json",
-        assets: "./docs/theme/assets/",
         source: "./src/build/lib.js"
+        
+        content: "./docs/content/data.json",
+        templates: "./docs/theme/",
+        partials: "./docs/theme/partials/",
+        assets: "./docs/theme/assets/",
+
       }
     }
   },
