@@ -31,10 +31,8 @@ grunt.initConfig({
           version: "0.0.0",
           github: "https://github.com/user/myProject"
         },
-
         dest: "./docs/build/",
-        source: "./src/build/lib.js"
-        
+        source: "./src/build/lib.js",
         content: "./docs/content/data.json",
         templates: "./docs/theme/",
         partials: "./docs/theme/partials/",
