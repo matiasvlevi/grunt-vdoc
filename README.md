@@ -36,8 +36,7 @@ grunt.initConfig({
         content: "./docs/content/data.json",
         templates: "./docs/theme/",
         partials: "./docs/theme/partials/",
-        assets: "./docs/theme/assets/",
-
+        assets: "./docs/theme/assets/"
       }
     }
   },
