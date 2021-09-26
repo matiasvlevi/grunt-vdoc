@@ -58,7 +58,7 @@ grunt.initConfig({
 * `source` where is the source code to get the documentation content from?
 
 ##### Meta data
-* Add any meta data you want, the meta object is transfered to the documentation content in the json file.
+* Add any meta data you want, the meta object is transfered to the documentation content in the json file. Which can then be used with the handlebars.
 
 
 <br/><br/>
