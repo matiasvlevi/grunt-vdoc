@@ -13,17 +13,15 @@ const compileContent = require('../lib/parser');
 
 module.exports = function(grunt) {
 
-  // Please see the Grunt documentation for more information regarding task
-  // creation: http://gruntjs.com/creating-tasks
-
-  grunt.registerMultiTask('vdoc', 'The best Grunt plugin ever.', function(a, b) {
+  grunt.registerMultiTask('vdoc', 'Compile inline docs to html', function(a, b) {
     let config = this.data.options;
 
-    // Compile all templates in specified directories
-    compileTemplates(config);
-
-    // Compile inline documentatio content
+    // Compile inline documentation content
     compileContent(config);
+
+    // Compile all templates & content in specified directories
+    // as html files
+    compileTemplates(config);
   });
 
 };

@@ -27,7 +27,7 @@ module.exports = function(grunt) {
           partials: "./docs/theme/partials/",
           content: "./docs/content/data.json",
           assets: "./docs/theme/assets/",
-          source: "./src/build/lib.js"
+          source: "./src/**/*.js"
         }
       }
     },
