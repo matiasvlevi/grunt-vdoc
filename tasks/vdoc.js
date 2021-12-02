@@ -1,6 +1,6 @@
 /*
  * grunt-vdoc
- * https://github.com/matia/grunt-contrib-vdoc
+ * https://github.com/matiasvlevi/grunt-contrib-vdoc
  *
  * Copyright (c) 2021 Matias Vazquez-Levi
  * Licensed under the MIT license.
